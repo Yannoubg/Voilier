@@ -1,7 +1,8 @@
 #!/usr/bin/python
+# -*- coding: utf-8 -*-
 import socket
-IP_Serv="127.0.0.1" "192.168.X.1"
-PORT=8888
+IP_Serv="192.168.5.254"
+PORT=5005
 sock=socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 sock.bind((IP_Serv,PORT))
 while True :
